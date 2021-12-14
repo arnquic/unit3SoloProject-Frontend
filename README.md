@@ -4,7 +4,7 @@
 Battle other Pokemon, build your team, and become a pokemon master! You will signin as a unique user and pick a starter Pokemon. As you defeat pokemon, you will catch them and add them to your roster so that you may use them in your next battle!
 
 ## Wireframes
-See Wireframes.dio
+See planningStuff/Wireframes.dio
 
 ## User Stories
 1. When I first visit the site, I see a home page with a description of the site and links to signup and login.
@@ -27,11 +27,24 @@ See Wireframes.dio
 - '/myPokemon/add' - Add a pokemon to the currently logged-in user's pokemon.
 - (Stretch)'/myPokemon/saveBattle' - Save the logged-in user's current pokemon's battle.
 
+## Backend MVP Checklist
+1. [x] Create Backend Express App
+    1. [x] npm init
+    2. [x] npm installs (express, nodemon, pg, sequelize, dotenv, bcrypt, jsonwebtoken, cors, rowdy-logger)
+    3. [x] sequelize init
+    4. [x] .gitignore (node_modules, config, .env)
+2. [x] Create DB models
+    1. [x] Use singular names
+3. [x] Migrate models
+4. [x] Create routers and controllers for backend
+5. [x] Create controller functions
+6. [x] Hook-up server.js with routers and routers with controllers
+
 ## ERD (Entity Relationship Diagram)
-See ERD.jpg
+See planningStuff/ERD.jpg
 
 ## Frontend Components Tree
-See FrontendComponents.dio
+See planningStuff/FrontendComponents.dio
 
 ## Frontend Routes
 - '/' - Home page.
@@ -41,30 +54,17 @@ See FrontendComponents.dio
 - '/myPokemon' - Page to see all of the signed-in user's caught pokemon as well as initiate a new battle (or resume a saved one - Stretch Goal).
 - '/battle' - Page that will hold the most fun part of the app/site - BATTLING!!!
 
-## Backend MVP Checklist
-1. [ ] Create Backend Express App
-    1. [x] npm init
-    2. [x] npm installs (express, nodemon, pg, sequelize, dotenv, bcrypt, jsonwebtoken, cors, rowdy-logger)
-    3. [x] sequelize init
-    4. [x] .gitignore (node_modules, config, .env)
-2. [ ] Create DB models
-    1. [ ] Use singular names
-3. [ ] Migrate models
-4. [ ] Create routers and controllers for backend
-5. [ ] Create controller functions
-6. [ ] Hook-up server.js with routers and routers with controllers
-
 ## Frontend MVP Checklist
 1. [x] Create React App (use '.' to specify that it should be made directly in frontend folder)
-2. [ ] Create all Component and Page folders, .js files, and .css files
-3. [ ] Create AppContext
-4. [ ] Wrap the App in BrowserRouter and AppContext
+2. [x] Create all Component and Page folders, .js files, and .css files
+3. [x] Create AppContext
+4. [x] Wrap the App in BrowserRouter and AppContext
 5. [ ] Complete Components and Pages
     1. [ ] Will need "https://pokeapi.co/api/v2/" calls
 
 ## Stretch Goals
 1. [ ] More complex game mechanics
-1. [ ] Pokemon Damaged Animations
-2. [ ] Ability to filter/search My Pokemon
-3. [ ] Implement Battle saving
-4. [ ] Select the enemy pokemon you want to battle
+2. [ ] Pokemon Damaged Animations
+3. [ ] Ability to filter/search My Pokemon
+4. [ ] Implement Battle saving
+5. [ ] Select the enemy pokemon you want to battle

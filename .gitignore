@@ -24,3 +24,4 @@ yarn-error.log*
 
 # user added
 .env
+public/env.js
