@@ -40,7 +40,8 @@
   },
   "react-dotenv": {
     "whitelist": [
-      "BACKEND_URL"
+      "BACKEND_URL",
+      "POKEAPI_BASE"
     ]
   },
   "homepage": ""
