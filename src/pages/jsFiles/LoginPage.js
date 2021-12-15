@@ -24,16 +24,15 @@ function LoginPage() {
         })
     }
 
-    async function submitSignup(e) {
+    async function submitLogin(e) {
         e.preventDefault();
         const response = await axios.post(`${env.BACKEND_URL}/user/login`, { email: loginInfo.email, password: loginInfo.password });
-        console.log(response);
         setUser(response.data.user);
         localStorage.setItem('authorization', response.data.user.authorization);
     }
 
     return (
-        <form className='LoginForm' onSubmit={(e) => { submitSignup(e); }}>
+        <form className='LoginForm' onSubmit={(e) => { submitLogin(e); }}>
             <div className='LoginEmail'>
                 <label htmlFor="email">Email: </label>
                 <input name="email" type="email" placeholder="Enter your email" value={loginInfo.email} onChange={handleFormChange} />

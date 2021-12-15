@@ -17,14 +17,9 @@ function App() {
 
   const { userState, myPokemonState, allPokemonState, battlePokemonState } = useContext(AppContext);
   const [user, setUser] = userState;
-  const [myPokemon] = myPokemonState;
+  const [myPokemon, setMyPokemon] = myPokemonState;
   const [allPokemon, setAllPokemon] = allPokemonState;
   const [battlePokemon] = battlePokemonState;
-
-  async function getAllPokemon() {
-    const response = await axios.get(`${env.POKEAPI_BASE}/pokemon?limit=151&offset=0`);
-    setAllPokemon(response.data.results);
-  }
 
   async function verifyUser() {
     const authorization = localStorage.getItem('authorization');
@@ -40,7 +35,20 @@ function App() {
     }
   }
 
-  useEffect(() => { getAllPokemon(); verifyUser(); }, []);
+  async function getAllPokemon() {
+    const response = await axios.get(`${env.POKEAPI_BASE}/pokemon?limit=151&offset=0`);
+    setAllPokemon(response.data.results);
+  }
+
+  async function getMyPokemon() {
+    if (user.authorization) {
+      const response = await axios.get(`${env.BACKEND_URL}/myPokemon`, { headers: { authorization: localStorage.getItem('authorization') } });
+      setMyPokemon(response.data);
+    }
+  }
+
+  useEffect(() => { verifyUser(); getAllPokemon(); }, []);
+  useEffect(() => { getMyPokemon(); }, [user]);
 
 
   return (
@@ -52,10 +60,10 @@ function App() {
         <Route path='/' element={<HomePage />} />
 
         <Route path='/signup'
-          element={user.authorization ? <SignupPage /> : <Navigate to='/' />} />
+          element={!user.authorization ? <SignupPage /> : <Navigate to='/' />} />
 
         <Route path='/login'
-          element={user.authorization ? <LoginPage /> : <Navigate to='/' />} />
+          element={!user.authorization ? <LoginPage /> : <Navigate to='/' />} />
 
         <Route path='/selectStarter'
           element={user.authorization && myPokemon.length < 1 ? <StarterPokemonPage /> : <Navigate to='/' />} />

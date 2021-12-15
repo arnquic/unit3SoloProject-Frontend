@@ -10,7 +10,7 @@ function Header() {
 
     const { userState, myPokemonState } = useContext(AppContext);
     const [user, setUser] = userState;
-    const [myPokemon, setMyPokemon] = myPokemonState;
+    const [myPokemon] = myPokemonState;
 
     function handleLogoutClick() {
         localStorage.removeItem('authorization');
