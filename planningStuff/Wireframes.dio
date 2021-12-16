@@ -1,28 +1,28 @@
 <mxfile host="65bd71144e">
     <diagram id="ep76VNb2tLujYmu1z7BL" name="HomePage - LOut">
-        <mxGraphModel dx="1153" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="530" dy="917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry width="850" height="890" as="geometry"/>
                 </mxCell>
-                <mxCell id="gJnYhwy-K1JkfhJ9MsO8-2" value="Pokemon Master" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="gJnYhwy-K1JkfhJ9MsO8-2" value="Pokemon Master" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="365" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="gJnYhwy-K1JkfhJ9MsO8-3" value="NavBar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="gJnYhwy-K1JkfhJ9MsO8-3" value="NavBar" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry y="60" width="850" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="gJnYhwy-K1JkfhJ9MsO8-5" value="Home / About" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="gJnYhwy-K1JkfhJ9MsO8-5" value="Home / About" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="230" y="110" width="80" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="gJnYhwy-K1JkfhJ9MsO8-6" value="Signup" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="gJnYhwy-K1JkfhJ9MsO8-6" value="Signup" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="520" y="110" width="40" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="gJnYhwy-K1JkfhJ9MsO8-7" value="Login" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="gJnYhwy-K1JkfhJ9MsO8-7" value="Login" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="590" y="110" width="40" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="tTq5YQ2k9sYbVgEYDdFD-2" value="&lt;h1&gt;Welcome&lt;/h1&gt;&lt;p&gt;Description of game / app.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                <mxCell id="tTq5YQ2k9sYbVgEYDdFD-2" value="&lt;h1&gt;Welcome&lt;/h1&gt;&lt;p&gt;Description of game / app.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="150" y="250" width="590" height="250" as="geometry"/>
                 </mxCell>
             </root>
@@ -202,83 +202,83 @@
         </mxGraphModel>
     </diagram>
     <diagram name="MyPokemonPage" id="PCwOCO_kzuwdExDpHxWh">
-        <mxGraphModel dx="1153" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="530" dy="917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="J1zMEutFSW41gVVSxma1-0"/>
                 <mxCell id="J1zMEutFSW41gVVSxma1-1" parent="J1zMEutFSW41gVVSxma1-0"/>
-                <mxCell id="J1zMEutFSW41gVVSxma1-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="J1zMEutFSW41gVVSxma1-1">
+                <mxCell id="J1zMEutFSW41gVVSxma1-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="J1zMEutFSW41gVVSxma1-1" vertex="1">
                     <mxGeometry width="850" height="890" as="geometry"/>
                 </mxCell>
-                <mxCell id="J1zMEutFSW41gVVSxma1-3" value="Pokemon Master" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="J1zMEutFSW41gVVSxma1-1">
+                <mxCell id="J1zMEutFSW41gVVSxma1-3" value="Pokemon Master" style="rounded=0;whiteSpace=wrap;html=1;" parent="J1zMEutFSW41gVVSxma1-1" vertex="1">
                     <mxGeometry x="365" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="J1zMEutFSW41gVVSxma1-4" value="NavBar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="J1zMEutFSW41gVVSxma1-1">
+                <mxCell id="J1zMEutFSW41gVVSxma1-4" value="NavBar" style="rounded=0;whiteSpace=wrap;html=1;" parent="J1zMEutFSW41gVVSxma1-1" vertex="1">
                     <mxGeometry y="60" width="850" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="J1zMEutFSW41gVVSxma1-5" value="Home / About" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="J1zMEutFSW41gVVSxma1-1">
+                <mxCell id="J1zMEutFSW41gVVSxma1-5" value="Home / About" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="J1zMEutFSW41gVVSxma1-1" vertex="1">
                     <mxGeometry x="270" y="110" width="80" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="J1zMEutFSW41gVVSxma1-6" value="Logout" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="J1zMEutFSW41gVVSxma1-1">
+                <mxCell id="J1zMEutFSW41gVVSxma1-6" value="Logout" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="J1zMEutFSW41gVVSxma1-1" vertex="1">
                     <mxGeometry x="790" y="110" width="40" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="J1zMEutFSW41gVVSxma1-7" value="My Pokemon" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="J1zMEutFSW41gVVSxma1-1">
+                <mxCell id="J1zMEutFSW41gVVSxma1-7" value="My Pokemon" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="J1zMEutFSW41gVVSxma1-1" vertex="1">
                     <mxGeometry x="570" y="110" width="90" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="J1zMEutFSW41gVVSxma1-8" value="Username" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="J1zMEutFSW41gVVSxma1-1">
+                <mxCell id="J1zMEutFSW41gVVSxma1-8" value="Username" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="J1zMEutFSW41gVVSxma1-1" vertex="1">
                     <mxGeometry x="690" y="110" width="80" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="pCdrwLqNTv1VMwke7hxu-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="J1zMEutFSW41gVVSxma1-1">
+                <mxCell id="pCdrwLqNTv1VMwke7hxu-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="J1zMEutFSW41gVVSxma1-1" vertex="1">
                     <mxGeometry x="110" y="210" width="190" height="220" as="geometry"/>
                 </mxCell>
-                <mxCell id="pCdrwLqNTv1VMwke7hxu-0" value="Pokemon Img" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="J1zMEutFSW41gVVSxma1-1">
+                <mxCell id="pCdrwLqNTv1VMwke7hxu-0" value="Pokemon Img" style="rounded=1;whiteSpace=wrap;html=1;" parent="J1zMEutFSW41gVVSxma1-1" vertex="1">
                     <mxGeometry x="120" y="220" width="170" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="pCdrwLqNTv1VMwke7hxu-1" value="Pokemon Name" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="J1zMEutFSW41gVVSxma1-1">
+                <mxCell id="pCdrwLqNTv1VMwke7hxu-1" value="Pokemon Name" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="J1zMEutFSW41gVVSxma1-1" vertex="1">
                     <mxGeometry x="142.5" y="370" width="120" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="pCdrwLqNTv1VMwke7hxu-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="J1zMEutFSW41gVVSxma1-1">
+                <mxCell id="pCdrwLqNTv1VMwke7hxu-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="J1zMEutFSW41gVVSxma1-1" vertex="1">
                     <mxGeometry x="330" y="210" width="190" height="220" as="geometry"/>
                 </mxCell>
-                <mxCell id="pCdrwLqNTv1VMwke7hxu-5" value="Pokemon Img" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="J1zMEutFSW41gVVSxma1-1">
+                <mxCell id="pCdrwLqNTv1VMwke7hxu-5" value="Pokemon Img" style="rounded=1;whiteSpace=wrap;html=1;" parent="J1zMEutFSW41gVVSxma1-1" vertex="1">
                     <mxGeometry x="340" y="220" width="170" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="pCdrwLqNTv1VMwke7hxu-6" value="Pokemon Name" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="J1zMEutFSW41gVVSxma1-1">
+                <mxCell id="pCdrwLqNTv1VMwke7hxu-6" value="Pokemon Name" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="J1zMEutFSW41gVVSxma1-1" vertex="1">
                     <mxGeometry x="362.5" y="370" width="120" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="pCdrwLqNTv1VMwke7hxu-12" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="J1zMEutFSW41gVVSxma1-1">
+                <mxCell id="pCdrwLqNTv1VMwke7hxu-12" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="J1zMEutFSW41gVVSxma1-1" vertex="1">
                     <mxGeometry x="560" y="210" width="190" height="220" as="geometry"/>
                 </mxCell>
-                <mxCell id="pCdrwLqNTv1VMwke7hxu-13" value="Pokemon Img" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="J1zMEutFSW41gVVSxma1-1">
+                <mxCell id="pCdrwLqNTv1VMwke7hxu-13" value="Pokemon Img" style="rounded=1;whiteSpace=wrap;html=1;" parent="J1zMEutFSW41gVVSxma1-1" vertex="1">
                     <mxGeometry x="570" y="220" width="170" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="pCdrwLqNTv1VMwke7hxu-14" value="Pokemon Name" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="J1zMEutFSW41gVVSxma1-1">
+                <mxCell id="pCdrwLqNTv1VMwke7hxu-14" value="Pokemon Name" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="J1zMEutFSW41gVVSxma1-1" vertex="1">
                     <mxGeometry x="592.5" y="370" width="120" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="pCdrwLqNTv1VMwke7hxu-16" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="J1zMEutFSW41gVVSxma1-1">
+                <mxCell id="pCdrwLqNTv1VMwke7hxu-16" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="J1zMEutFSW41gVVSxma1-1" vertex="1">
                     <mxGeometry x="110" y="460" width="190" height="220" as="geometry"/>
                 </mxCell>
-                <mxCell id="pCdrwLqNTv1VMwke7hxu-17" value="Pokemon Img" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="J1zMEutFSW41gVVSxma1-1">
+                <mxCell id="pCdrwLqNTv1VMwke7hxu-17" value="Pokemon Img" style="rounded=1;whiteSpace=wrap;html=1;" parent="J1zMEutFSW41gVVSxma1-1" vertex="1">
                     <mxGeometry x="120" y="470" width="170" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="pCdrwLqNTv1VMwke7hxu-18" value="Pokemon Name" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="J1zMEutFSW41gVVSxma1-1">
+                <mxCell id="pCdrwLqNTv1VMwke7hxu-18" value="Pokemon Name" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="J1zMEutFSW41gVVSxma1-1" vertex="1">
                     <mxGeometry x="142.5" y="620" width="120" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="pCdrwLqNTv1VMwke7hxu-20" value="&lt;h1&gt;My Pokemon&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="J1zMEutFSW41gVVSxma1-1">
+                <mxCell id="pCdrwLqNTv1VMwke7hxu-20" value="&lt;h1&gt;My Pokemon&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="J1zMEutFSW41gVVSxma1-1" vertex="1">
                     <mxGeometry x="340" y="160" width="170" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="Cq9BY6lR82Aw1BeLj2ux-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="J1zMEutFSW41gVVSxma1-1">
+                <mxCell id="Cq9BY6lR82Aw1BeLj2ux-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="J1zMEutFSW41gVVSxma1-1" vertex="1">
                     <mxGeometry x="107.5" y="770" width="190" height="220" as="geometry"/>
                 </mxCell>
-                <mxCell id="Cq9BY6lR82Aw1BeLj2ux-2" value="Resume Battle (grayed out if not option)&lt;br&gt;(Stretch Goal)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="J1zMEutFSW41gVVSxma1-1">
+                <mxCell id="Cq9BY6lR82Aw1BeLj2ux-2" value="Resume Battle (grayed out if not option)&lt;br&gt;(Stretch Goal)" style="rounded=1;whiteSpace=wrap;html=1;" parent="J1zMEutFSW41gVVSxma1-1" vertex="1">
                     <mxGeometry x="122.5" y="780" width="160" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="Cq9BY6lR82Aw1BeLj2ux-3" value="New Battle" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="J1zMEutFSW41gVVSxma1-1">
+                <mxCell id="Cq9BY6lR82Aw1BeLj2ux-3" value="New Battle" style="rounded=1;whiteSpace=wrap;html=1;" parent="J1zMEutFSW41gVVSxma1-1" vertex="1">
                     <mxGeometry x="125" y="850" width="160" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="Cq9BY6lR82Aw1BeLj2ux-4" value="Go Back" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="J1zMEutFSW41gVVSxma1-1">
+                <mxCell id="Cq9BY6lR82Aw1BeLj2ux-4" value="Go Back" style="rounded=1;whiteSpace=wrap;html=1;" parent="J1zMEutFSW41gVVSxma1-1" vertex="1">
                     <mxGeometry x="125" y="920" width="160" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="Cq9BY6lR82Aw1BeLj2ux-5" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="J1zMEutFSW41gVVSxma1-1" source="Cq9BY6lR82Aw1BeLj2ux-1" target="pCdrwLqNTv1VMwke7hxu-16">
+                <mxCell id="Cq9BY6lR82Aw1BeLj2ux-5" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="J1zMEutFSW41gVVSxma1-1" source="Cq9BY6lR82Aw1BeLj2ux-1" target="pCdrwLqNTv1VMwke7hxu-16" edge="1">
                     <mxGeometry width="100" height="100" relative="1" as="geometry">
                         <mxPoint x="350" y="740" as="sourcePoint"/>
                         <mxPoint x="450" y="640" as="targetPoint"/>
@@ -288,59 +288,59 @@
         </mxGraphModel>
     </diagram>
     <diagram id="Ss2dHi4Gj17CtsrGA_eY" name="BattlePage">
-        <mxGraphModel dx="1153" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="530" dy="917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="4fyLzwYCaXI-Z7ObsXV0-0"/>
                 <mxCell id="4fyLzwYCaXI-Z7ObsXV0-1" parent="4fyLzwYCaXI-Z7ObsXV0-0"/>
-                <mxCell id="4fyLzwYCaXI-Z7ObsXV0-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4fyLzwYCaXI-Z7ObsXV0-1">
+                <mxCell id="4fyLzwYCaXI-Z7ObsXV0-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="4fyLzwYCaXI-Z7ObsXV0-1" vertex="1">
                     <mxGeometry x="90" y="100" width="670" height="720" as="geometry"/>
                 </mxCell>
-                <mxCell id="4fyLzwYCaXI-Z7ObsXV0-2" value="Enemy Pokemon Img" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4fyLzwYCaXI-Z7ObsXV0-1">
+                <mxCell id="4fyLzwYCaXI-Z7ObsXV0-2" value="Enemy Pokemon Img" style="rounded=0;whiteSpace=wrap;html=1;" parent="4fyLzwYCaXI-Z7ObsXV0-1" vertex="1">
                     <mxGeometry x="460" y="100" width="300" height="220" as="geometry"/>
                 </mxCell>
-                <mxCell id="4fyLzwYCaXI-Z7ObsXV0-3" value="My Pokemon Img" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4fyLzwYCaXI-Z7ObsXV0-1">
+                <mxCell id="4fyLzwYCaXI-Z7ObsXV0-3" value="My Pokemon Img" style="rounded=0;whiteSpace=wrap;html=1;" parent="4fyLzwYCaXI-Z7ObsXV0-1" vertex="1">
                     <mxGeometry x="90" y="390" width="300" height="220" as="geometry"/>
                 </mxCell>
-                <mxCell id="4fyLzwYCaXI-Z7ObsXV0-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4fyLzwYCaXI-Z7ObsXV0-1">
+                <mxCell id="4fyLzwYCaXI-Z7ObsXV0-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="4fyLzwYCaXI-Z7ObsXV0-1" vertex="1">
                     <mxGeometry x="90" y="610" width="670" height="210" as="geometry"/>
                 </mxCell>
-                <mxCell id="4fyLzwYCaXI-Z7ObsXV0-7" value="Game State Description&lt;br&gt;&lt;br&gt;(e.g., What will Pikachu do?)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4fyLzwYCaXI-Z7ObsXV0-1">
+                <mxCell id="4fyLzwYCaXI-Z7ObsXV0-7" value="Game State Description&lt;br&gt;&lt;br&gt;(e.g., What will Pikachu do?)" style="rounded=1;whiteSpace=wrap;html=1;" parent="4fyLzwYCaXI-Z7ObsXV0-1" vertex="1">
                     <mxGeometry x="90" y="610" width="340" height="210" as="geometry"/>
                 </mxCell>
-                <mxCell id="4fyLzwYCaXI-Z7ObsXV0-9" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4fyLzwYCaXI-Z7ObsXV0-1">
+                <mxCell id="4fyLzwYCaXI-Z7ObsXV0-9" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="4fyLzwYCaXI-Z7ObsXV0-1" vertex="1">
                     <mxGeometry x="430" y="610" width="330" height="210" as="geometry"/>
                 </mxCell>
-                <mxCell id="4fyLzwYCaXI-Z7ObsXV0-10" value="Fight" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4fyLzwYCaXI-Z7ObsXV0-1">
+                <mxCell id="4fyLzwYCaXI-Z7ObsXV0-10" value="Fight" style="rounded=1;whiteSpace=wrap;html=1;" parent="4fyLzwYCaXI-Z7ObsXV0-1" vertex="1">
                     <mxGeometry x="450" y="630" width="140" height="170" as="geometry"/>
                 </mxCell>
-                <mxCell id="4fyLzwYCaXI-Z7ObsXV0-11" value="Save &amp;amp; Quit&lt;br&gt;(Stretch Goal)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4fyLzwYCaXI-Z7ObsXV0-1">
+                <mxCell id="4fyLzwYCaXI-Z7ObsXV0-11" value="Save &amp;amp; Quit&lt;br&gt;(Stretch Goal)" style="rounded=1;whiteSpace=wrap;html=1;" parent="4fyLzwYCaXI-Z7ObsXV0-1" vertex="1">
                     <mxGeometry x="600" y="630" width="130" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="4fyLzwYCaXI-Z7ObsXV0-14" value="My Pokemon Name&lt;br&gt;&lt;br&gt;My Pokemon Health" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4fyLzwYCaXI-Z7ObsXV0-1">
+                <mxCell id="4fyLzwYCaXI-Z7ObsXV0-14" value="My Pokemon Name&lt;br&gt;&lt;br&gt;My Pokemon Health" style="rounded=0;whiteSpace=wrap;html=1;" parent="4fyLzwYCaXI-Z7ObsXV0-1" vertex="1">
                     <mxGeometry x="430" y="510" width="330" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="4fyLzwYCaXI-Z7ObsXV0-15" value="Enemy Pokemon Name&lt;br&gt;&lt;br&gt;Enemy Pokemon Health" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4fyLzwYCaXI-Z7ObsXV0-1">
+                <mxCell id="4fyLzwYCaXI-Z7ObsXV0-15" value="Enemy Pokemon Name&lt;br&gt;&lt;br&gt;Enemy Pokemon Health" style="rounded=0;whiteSpace=wrap;html=1;" parent="4fyLzwYCaXI-Z7ObsXV0-1" vertex="1">
                     <mxGeometry x="90" y="100" width="330" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="K17LfRAf0S2nerZESh23-0" value="Quit" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4fyLzwYCaXI-Z7ObsXV0-1">
+                <mxCell id="K17LfRAf0S2nerZESh23-0" value="Quit" style="rounded=1;whiteSpace=wrap;html=1;" parent="4fyLzwYCaXI-Z7ObsXV0-1" vertex="1">
                     <mxGeometry x="600" y="720" width="130" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="IwbP-zxxznt-8rvXxbA5-0" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4fyLzwYCaXI-Z7ObsXV0-1">
+                <mxCell id="IwbP-zxxznt-8rvXxbA5-0" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="4fyLzwYCaXI-Z7ObsXV0-1" vertex="1">
                     <mxGeometry x="430" y="880" width="330" height="210" as="geometry"/>
                 </mxCell>
-                <mxCell id="IwbP-zxxznt-8rvXxbA5-1" value="Move 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4fyLzwYCaXI-Z7ObsXV0-1">
+                <mxCell id="IwbP-zxxznt-8rvXxbA5-1" value="Move 1" style="rounded=1;whiteSpace=wrap;html=1;" parent="4fyLzwYCaXI-Z7ObsXV0-1" vertex="1">
                     <mxGeometry x="450" y="900" width="140" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="IwbP-zxxznt-8rvXxbA5-2" value="Move 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4fyLzwYCaXI-Z7ObsXV0-1">
+                <mxCell id="IwbP-zxxznt-8rvXxbA5-2" value="Move 2" style="rounded=1;whiteSpace=wrap;html=1;" parent="4fyLzwYCaXI-Z7ObsXV0-1" vertex="1">
                     <mxGeometry x="600" y="900" width="130" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="IwbP-zxxznt-8rvXxbA5-3" value="Go Back" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4fyLzwYCaXI-Z7ObsXV0-1">
+                <mxCell id="IwbP-zxxznt-8rvXxbA5-3" value="Go Back" style="rounded=1;whiteSpace=wrap;html=1;" parent="4fyLzwYCaXI-Z7ObsXV0-1" vertex="1">
                     <mxGeometry x="600" y="990" width="130" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="IwbP-zxxznt-8rvXxbA5-4" value="Move 3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4fyLzwYCaXI-Z7ObsXV0-1">
+                <mxCell id="IwbP-zxxznt-8rvXxbA5-4" value="Move 3" style="rounded=1;whiteSpace=wrap;html=1;" parent="4fyLzwYCaXI-Z7ObsXV0-1" vertex="1">
                     <mxGeometry x="450" y="990" width="140" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="IwbP-zxxznt-8rvXxbA5-5" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="4fyLzwYCaXI-Z7ObsXV0-1" source="IwbP-zxxznt-8rvXxbA5-0" target="4fyLzwYCaXI-Z7ObsXV0-9">
+                <mxCell id="IwbP-zxxznt-8rvXxbA5-5" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="4fyLzwYCaXI-Z7ObsXV0-1" source="IwbP-zxxznt-8rvXxbA5-0" target="4fyLzwYCaXI-Z7ObsXV0-9" edge="1">
                     <mxGeometry width="100" height="100" relative="1" as="geometry">
                         <mxPoint x="250" y="980" as="sourcePoint"/>
                         <mxPoint x="350" y="880" as="targetPoint"/>

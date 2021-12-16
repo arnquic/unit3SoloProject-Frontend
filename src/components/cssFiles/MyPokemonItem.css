@@ -1,0 +1,20 @@
+.MyPokemonItem {
+    border: 1px solid black;
+    width: 10em;
+    min-height: 295px;
+
+    font-size: 25px;
+    margin: 0;
+}
+
+.MyPokemonItem > img {
+    width: 10em;
+    height: auto;
+
+    border: 1px dotted black;
+}
+
+.MyPokemonItem > h4 {
+    border: 1px dotted black;
+    margin: 0;
+}

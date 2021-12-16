@@ -20,7 +20,7 @@ function StarterPokemon(props) {
         setBaseHp(response.data.stats[0].base_stat);
     }
 
-    function capitalizeFirstLetter(string) {
+    function capFirstLetter(string) {
         return string.charAt(0).toUpperCase() + string.slice(1);
     }
 
@@ -45,17 +45,17 @@ function StarterPokemon(props) {
         <div className='StarterPokemon' onClick={handleDivClick}>
             {showSelectionConfirm ?
                 <>
-                    <button onClick={handleConfirmClick}>Confirm {capitalizeFirstLetter(props.pokemonName)}</button>
+                    <button onClick={handleConfirmClick}>Confirm {capFirstLetter(props.pokemonName)}</button>
                     <button onClick={handleCancelClick}>Cancel</button>
                 </>
                 :
                 <>
                     {imgUrl !== null ?
-                        <img src={imgUrl} alt={capitalizeFirstLetter(props.pokemonName)} />
+                        <img src={imgUrl} alt={capFirstLetter(props.pokemonName)} />
                         :
                         <p>Loading...</p>
                     }
-                    <h4>{capitalizeFirstLetter(props.pokemonName)}</h4>
+                    <h4>{capFirstLetter(props.pokemonName)}</h4>
                 </>
             }
         </div>
