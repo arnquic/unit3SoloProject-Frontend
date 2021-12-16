@@ -59,11 +59,14 @@ See planningStuff/FrontendComponents.dio
 2. [x] Create all Component and Page folders, .js files, and .css files
 3. [x] Create AppContext
 4. [x] Wrap the App in BrowserRouter and AppContext
-5. [ ] Complete Components and Pages
-    1. [ ] Will need "https://pokeapi.co/api/v2/" calls
+5. [x] Complete Components and Pages
+    1. [x] Will need "https://pokeapi.co/api/v2/" calls
 
 ## Stretch Goals
-1. [ ] More complex game mechanics
+1. [x] More complex game mechanics
+    - [x] Mechanics do include move choices rather than just coin flips.
+    - [ ] Could expand furhter with pokemon stats incorporation beyond just the selected move's power.
+    - [ ] Could expand furhter with assigning more 'classic' pokemon moves for each pokemon, and not just the first 3 moves in the list of moves the pokemon can learn.
 2. [ ] Pokemon Damaged Animations
 3. [ ] Ability to filter/search My Pokemon
 4. [ ] Implement Battle saving
