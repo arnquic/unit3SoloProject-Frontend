@@ -118,9 +118,6 @@ function BattlePage() {
                 setEnemyAttackText("");
                 setBattleState(BATTLE_STATES[4]);
             }
-            else {
-                setBattleState(BATTLE_STATES[2]);
-            }
         }
     }
 

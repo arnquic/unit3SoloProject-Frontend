@@ -33,6 +33,7 @@ function BattleOptions(props) {
         else if (name === 'move3') {
             props.setEnemyHealth(Math.max(0, props.enemyHealth - props.myMoveStats[2] * props.DAMAGE_MODIFIER));
         }
+        props.setBattleState(props.BATTLE_STATES[2]);
     }
 
     function handleGoBackClick() {
