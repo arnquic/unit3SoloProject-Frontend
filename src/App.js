@@ -60,10 +60,10 @@ function App() {
         <Route path='/' element={<HomePage />} />
 
         <Route path='/signup'
-          element={!user.authorization ? <SignupPage /> : <Navigate to='/myPokemon' />} />
+          element={!user.authorization ? <SignupPage /> : <Navigate to='/selectStarter' />} />
 
         <Route path='/login'
-          element={!user.authorization ? <LoginPage /> : <Navigate to='/myPokemon' />} />
+          element={!user.authorization ? <LoginPage /> : <Navigate to='/selectStarter' />} />
 
         <Route path='/selectStarter'
           element={user.authorization && myPokemon.length < 1 ? <StarterPokemonPage /> : <Navigate to='/myPokemon' />} />

@@ -12,6 +12,10 @@
     justify-content: center;
 }
 
+.MyPokemonItem:hover{
+    cursor: pointer;
+}
+
 .MyPokemonItem > img {
     width: 250px;
     height: auto;

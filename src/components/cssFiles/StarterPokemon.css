@@ -12,6 +12,10 @@
     justify-content: center;
 }
 
+.StarterPokemon:hover {
+    cursor: pointer;
+}
+
 .StarterPokemon > img {
     width: 250px;
     height: auto;

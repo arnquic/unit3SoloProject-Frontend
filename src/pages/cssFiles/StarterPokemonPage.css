@@ -11,6 +11,11 @@
     gap: 3em;
 }
 
+.StarterPokemonPage > h2 {
+    font-family: 'Bakbak One', cursive;
+    font-size: 35px;
+}
+
 .StarterPokemonContainer {
     width: 95vw;
     
