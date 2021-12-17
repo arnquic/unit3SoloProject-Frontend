@@ -1,0 +1,25 @@
+.PokemonBattleStats {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+
+.PokemonBattleStats > h4 {
+    font-family: 'Bakbak One', cursive;
+    font-size: 35px;
+}
+
+.HealthInfo {
+    
+}
+
+.HealthInfo > label {
+    font-family: 'Bakbak One', cursive;
+    font-size: 35px;
+}
+
+.HealthInfo > meter {
+    width: 80%;
+    height: 2.5vh;
+}

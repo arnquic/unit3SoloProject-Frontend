@@ -7,16 +7,47 @@
     grid-template-columns: 1fr;
 }
 
-.EnemyArea {
-    display: flex;
+.BattleArea {
+    background-image: url("../../graphics/pokemonBattleBackground.png");
+    background-position: center bottom;
+    background-size: 150%;
 }
 
 .MyArea {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.MyArea > img {
+    width: 30vmin;
+}
+
+.EnemyArea {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.EnemyArea > img {
+    width: 30vmin;
 }
 
 .BattleDisplay {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
+
+    border-top: 2px solid black;
+}
+
+.BattleState {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Bakbak One', cursive;
+    font-size: 35px;
+}
+
+.BattleState > h3 {
+    text-align: center;
 }

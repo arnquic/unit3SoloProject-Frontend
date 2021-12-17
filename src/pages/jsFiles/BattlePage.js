@@ -149,21 +149,24 @@ function BattlePage() {
         <div className='BattlePage'>
             {battlePokemon !== {} ?
                 <>
-                    <div className='EnemyArea'>
-                        <PokemonBattleStats
-                            pokemonName={capFirstLetter(battlePokemon.enemy.pokemonName)}
-                            currentHealth={enemyHealth}
-                            maxHealth={battlePokemon.enemy.maxHealth}
-                        />
-                        <img src={battlePokemon.enemy.imgUrl} alt={battlePokemon.enemy.pokemonName} />
-                    </div>
-                    <div className='MyArea'>
-                        <img src={battlePokemon.mine.imgUrl} alt={battlePokemon.mine.pokemonName} />
-                        <PokemonBattleStats
-                            pokemonName={capFirstLetter(battlePokemon.mine.pokemonName)}
-                            currentHealth={myHealth}
-                            maxHealth={battlePokemon.mine.maxHealth}
-                        />
+                    <div className='BattleArea'>
+                        <div className='EnemyArea'>
+
+                            <PokemonBattleStats
+                                pokemonName={capFirstLetter(battlePokemon.enemy.pokemonName)}
+                                currentHealth={enemyHealth}
+                                maxHealth={battlePokemon.enemy.maxHealth}
+                            />
+                            <img src={battlePokemon.enemy.imgUrl} alt={battlePokemon.enemy.pokemonName} />
+                        </div>
+                        <div className='MyArea'>
+                            <img src={battlePokemon.mine.imgUrl} alt={battlePokemon.mine.pokemonName} />
+                            <PokemonBattleStats
+                                pokemonName={capFirstLetter(battlePokemon.mine.pokemonName)}
+                                currentHealth={myHealth}
+                                maxHealth={battlePokemon.mine.maxHealth}
+                            />
+                        </div>
                     </div>
                     <div className='BattleDisplay'>
                         <div className='BattleState'>
