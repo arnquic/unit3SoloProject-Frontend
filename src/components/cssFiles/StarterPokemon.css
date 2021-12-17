@@ -1,0 +1,46 @@
+.StarterPokemon {
+    width: 250px;
+    min-height: 295px;
+    
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 0 0 5px 1px gray;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.StarterPokemon > img {
+    width: 250px;
+    height: auto;
+}
+
+.StarterPokemon > h4 {
+    font-size: 25px;
+    font-family: 'Bakbak One', cursive;
+}
+
+.StarterPokemon > button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    width: 95%;
+    height: 45%;
+
+    border: 2px solid black;
+    border-radius: 25px;
+
+    background-color: white;
+
+    font-family: 'Bakbak One', cursive;
+    font-size: 25px;
+}
+
+.StarterPokemon > button:hover {
+    cursor: pointer;
+
+    color: whitesmoke;
+    background-color: black;
+}

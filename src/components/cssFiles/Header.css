@@ -1,0 +1,76 @@
+.Header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.HeaderTitle {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: red;
+    width: 100vw;
+}
+
+.HeaderTitle > img {
+    width: 100vw;
+    height: auto;
+}
+
+.NavBar {
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: black;
+    height: 4vh;
+}
+
+.NavHome {
+    grid-row: 1;
+    grid-column: 1 / 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NavPokemon {
+    grid-row: 1;
+    grid-column: 2 / 2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.NavLogin {
+    grid-row: 1;
+    grid-column: 3 / 3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.NavLogin > h4 {
+    color: whitesmoke;
+}
+
+.NavBar > div > button {
+    color: black;
+    background-color: whitesmoke;
+    font-weight: bold;
+    border: 2px solid whitesmoke;
+    border-radius: 15vmin;
+    height: 3vh;
+    width: 8vw;
+    overflow: hidden;
+}
+
+.NavBar > div > button:hover {
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: black;
+}

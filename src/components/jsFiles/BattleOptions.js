@@ -13,7 +13,6 @@ function BattleOptions(props) {
     const navigation = useNavigate();
 
     function handleFightClick() {
-        console.log('handle fight click hit');
         props.setPageLoaded(true);
         props.setBattleState(props.BATTLE_STATES[1]);
     }
@@ -24,7 +23,6 @@ function BattleOptions(props) {
     }
 
     function handleMoveClick(e) {
-        console.log('handle move click hit');
         const { name } = e.target;
         if (name === 'move1') {
             props.setEnemyHealth(Math.max(0, props.enemyHealth - props.myMoveStats[0] * props.DAMAGE_MODIFIER));
@@ -44,20 +42,20 @@ function BattleOptions(props) {
     function displayCorrectItems() {
         if (props.battleState === props.BATTLE_STATES[0]) {
             return (
-                <>
+                <div className='BattleState0'>
                     <button onClick={handleFightClick}>Fight</button>
                     <button onClick={handleRunClick}>Run</button>
-                </>
+                </div>
             )
         }
         else if (props.battleState === props.BATTLE_STATES[1]) {
             return (
-                <>
+                <div className='BattleState1'>
                     <button name='move1' onClick={handleMoveClick}>{battlePokemon.mine.moves[0].name}</button>
                     <button name='move2' onClick={handleMoveClick}>{battlePokemon.mine.moves[1].name}</button>
                     <button name='move3' onClick={handleMoveClick}>{battlePokemon.mine.moves[2].name}</button>
                     <button onClick={handleGoBackClick}>Go Back</button>
-                </>
+                </div>
             )
         } else {
             return (

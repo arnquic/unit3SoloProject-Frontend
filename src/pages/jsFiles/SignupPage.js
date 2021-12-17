@@ -35,21 +35,25 @@ function SignupPage() {
     }
 
     return (
-        <form className='SignupForm' onSubmit={(e) => { submitSignup(e); }}>
-            <div className='SignupUsername'>
-                <label htmlFor="username">Username: </label>
-                <input name="username" type="text" placeholder="Enter a username" value={signupInfo.username} onChange={handleFormChange} />
+        <div className='SignupPage'>
+            <div className='SignupTitle'>
+                <h2>Sign Up</h2>
             </div>
-            <div className='SignupEmail'>
-                <label htmlFor="email">Email: </label>
-                <input name="email" type="email" placeholder="Enter an email" value={signupInfo.email} onChange={handleFormChange} />
-            </div>
-            <div className='SignupPassword'>
-                <label htmlFor="password">Password: </label>
-                <input name="password" type="password" placeholder="Enter a password" value={signupInfo.password} onChange={handleFormChange} />
-            </div>
-            <input type="submit" value="Submit" />
-        </form >
+            <form className='SignupForm'
+                onSubmit={(e) => { submitSignup(e); }}
+            >
+                <div className='SignupUsername'>
+                    <input name="username" type="text" placeholder="Username" value={signupInfo.username} onChange={handleFormChange} />
+                </div>
+                <div className='SignupEmail'>
+                    <input name="email" type="email" placeholder="Email" value={signupInfo.email} onChange={handleFormChange} />
+                </div>
+                <div className='SignupPassword'>
+                    <input name="password" type="password" placeholder="Password" value={signupInfo.password} onChange={handleFormChange} />
+                </div>
+                <input type="submit" value="Submit" />
+            </form >
+        </div>
     )
 }
 

@@ -1,0 +1,9 @@
+.BattleState0 {
+    display: flex;
+    gap: 5%;
+}
+
+.BattleState0 > button {
+    width: 40%;
+    height: 80%;
+}

@@ -1,7 +1,22 @@
+.BattlePage {
+    width: 100%;
+    height: 70vh;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+}
+
 .EnemyArea {
     display: flex;
 }
 
 .MyArea {
     display: flex;
+}
+
+.BattleDisplay {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
 }

@@ -32,17 +32,22 @@ function LoginPage() {
     }
 
     return (
-        <form className='LoginForm' onSubmit={(e) => { submitLogin(e); }}>
-            <div className='LoginEmail'>
-                <label htmlFor="email">Email: </label>
-                <input name="email" type="email" placeholder="Enter your email" value={loginInfo.email} onChange={handleFormChange} />
+        <div className='LoginPage'>
+            <div className='LoginTitle'>
+                <h2>Login</h2>
             </div>
-            <div className='LoginPassword'>
-                <label htmlFor="password">Password: </label>
-                <input name="password" type="password" placeholder="Enter your password" value={loginInfo.password} onChange={handleFormChange} />
-            </div>
-            <input type="submit" value="Submit" />
-        </form >
+            <form className='LoginForm'
+                onSubmit={(e) => { submitLogin(e); }}
+            >
+                <div className='LoginEmail'>
+                    <input name="email" type="email" placeholder="Email" value={loginInfo.email} onChange={handleFormChange} />
+                </div>
+                <div className='LoginPassword'>
+                    <input name="password" type="password" placeholder="Password" value={loginInfo.password} onChange={handleFormChange} />
+                </div>
+                <input type="submit" value="Submit" />
+            </form >
+        </div>
     )
 }
 

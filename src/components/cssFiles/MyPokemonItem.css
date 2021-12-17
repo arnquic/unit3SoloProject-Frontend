@@ -1,20 +1,46 @@
 .MyPokemonItem {
-    border: 1px solid black;
-    width: 10em;
+    width: 250px;
     min-height: 295px;
+    
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 0 0 5px 1px gray;
 
-    font-size: 25px;
-    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .MyPokemonItem > img {
-    width: 10em;
+    width: 250px;
     height: auto;
-
-    border: 1px dotted black;
 }
 
 .MyPokemonItem > h4 {
-    border: 1px dotted black;
-    margin: 0;
+    font-size: 25px;
+    font-family: 'Bakbak One', cursive;
+}
+
+.MyPokemonItem > button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    width: 95%;
+    height: 45%;
+
+    border: 2px solid black;
+    border-radius: 25px;
+
+    background-color: white;
+
+    font-family: 'Bakbak One', cursive;
+    font-size: 25px;
+}
+
+.MyPokemonItem > button:hover {
+    cursor: pointer;
+
+    color: whitesmoke;
+    background-color: black;
 }

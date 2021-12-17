@@ -4,10 +4,12 @@ import StarterPokemon from '../../components/jsFiles/StarterPokemon';
 
 function StarterPokemonPage() {
     return (
-        <div>
-            <StarterPokemon pokemonName='bulbasaur' />
-            <StarterPokemon pokemonName='squirtle' />
-            <StarterPokemon pokemonName='charmander' />
+        <div className='StarterPokemonPage'>
+            <div className='StarterPokemonContainer'>
+                <StarterPokemon pokemonName='bulbasaur' />
+                <StarterPokemon pokemonName='squirtle' />
+                <StarterPokemon pokemonName='charmander' />
+            </div>
         </div>
     )
 }

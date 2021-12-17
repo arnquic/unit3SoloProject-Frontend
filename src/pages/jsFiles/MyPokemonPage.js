@@ -33,7 +33,9 @@ function MyPokemonPage() {
 
     return (
         <div className='MyPokemonPage'>
-            {createMyPokemonItems()}
+            <div className='MyPokemonContainer'>
+                {createMyPokemonItems()}
+            </div>
         </div>
     )
 }

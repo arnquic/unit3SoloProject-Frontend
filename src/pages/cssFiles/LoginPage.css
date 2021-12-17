@@ -1,0 +1,42 @@
+.LoginPage {
+    margin-top: 80px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    font-family: 'Bakbak One', cursive;
+}
+
+.LoginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.LoginForm > div > input {
+    border: 1px solid black;
+    height: 3vh;
+    width: 200px;
+    padding: 5px;
+
+    font-family: 'Bakbak One', cursive;
+}
+
+.LoginForm > input {
+    border: 1px solid black;
+    height: 3vh;
+    width: 200px;
+    padding: 5px;
+    background-color: gainsboro;
+
+    font-family: 'Bakbak One', cursive;
+}
+
+.LoginForm > input:hover {
+    cursor: pointer;
+    background-color: black;
+    color: whitesmoke;
+}

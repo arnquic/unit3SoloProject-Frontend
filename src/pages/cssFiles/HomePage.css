@@ -1,0 +1,9 @@
+.HomePage {
+    margin: 50px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    font-family: 'Bakbak One', cursive;
+}
