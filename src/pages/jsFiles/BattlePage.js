@@ -34,7 +34,6 @@ function BattlePage() {
     const [battlePokemon, setBattlePokemon] = battlePokemonState;
 
     // Declare the necessary pieces of state.
-    const [pageLoaded, setPageLoaded] = useState(false);
     const [myHealth, setMyHealth] = useState(parseInt(battlePokemon.mine.currentHealth));
     const [enemyHealth, setEnemyHealth] = useState(battlePokemon.enemy.currentHealth);
     const [battleState, setBattleState] = useState(BATTLE_STATES[0]);
@@ -77,67 +76,52 @@ function BattlePage() {
         }
     }
 
-    // Function used to handle the battle states that are the enemy's turn. Chooses what attack they will use and applies the appropriate damage to the player's pokemon.
-    function handleEnemyTurn() {
+    // Function used to handle the battle states that in which the players is not making any choices.
+    async function handleBattleStateUpdate() {
+        // Chooses what attack the enemy will use and applies the appropriate damage to the player's pokemon. Displays that the enemy is attacking while the attack decision is being made.
         if (battleState === BATTLE_STATES[2]) {
+            console.log('bs2 hit');
             delay(2);
             const moveChoice = Math.floor(Math.random() * 3);
             setMyHealth(Math.max(0, myHealth - enemyMoveStats[moveChoice] * DAMAGE_MODIFIER));
             setEnemyAttackText(`${battlePokemon.enemy.moves[moveChoice].name} and did ${enemyMoveStats[moveChoice] * DAMAGE_MODIFIER} damamge.`);
             setBattleState(BATTLE_STATES[3]);
         }
+        // Displays the attack that the enemy used and how much damage they did.
         else if (battleState === BATTLE_STATES[3]) {
+            console.log('bs3 hit');
+            console.log('battle state is: ' + battleState);
+            console.log('enemy attack text: ' + enemyAttackText);
             delay(2);
             setEnemyAttackText("");
-            setBattleState(BATTLE_STATES[0]);
+            checkMyHealth();
         }
-    }
-
-    useEffect(handleEnemyTurn, [battleState]);
-
-    // Function to check if the player's pokemon's health has reached zero. Will set the battle state to the player has lost state if their health is zero.
-    function handleMyHealthUpdate() {
-        if (pageLoaded) {
-            if (myHealth <= 0) {
-                setEnemyAttackText("");
-                setBattleState(BATTLE_STATES[5]);
-            }
-            else {
-                setEnemyAttackText("");
-                setBattleState(BATTLE_STATES[0]);
-            }
-        }
-    }
-
-    useEffect(handleMyHealthUpdate, [myHealth]);
-
-    // Function to check if the enemy pokemon's health has reached zero. Will set the battle state to the player wins state if their health is zero.
-    function handleEnemyHealthUpdate() {
-        if (pageLoaded) {
-            if (enemyHealth <= 0) {
-                setEnemyAttackText("");
-                setBattleState(BATTLE_STATES[4]);
-            }
-        }
-    }
-
-    useEffect(handleEnemyHealthUpdate, [enemyHealth]);
-
-    // If either the player or the enemy pokemon reaches zero health, this function handles the end of the match and whether the player 'catches' the enemy pokemon (if the player wins).
-    async function handleMatchOver() {
-        if (battleState === BATTLE_STATES[4]) {
+        // If the enemy pokemon reaches zero health, the player 'catches' the enemy pokemon and displays that the player has won.
+        else if (battleState === BATTLE_STATES[4]) {
+            console.log('bs4 hit');
             const response = await axios.post(`${env.BACKEND_URL}/myPokemon/add`, { name: battlePokemon.enemy.pokemonName, currentHealth: battlePokemon.enemy.maxHealth }, { headers: { authorization: localStorage.getItem('authorization') } });
             delay(2.5);
             navigation('/myPokemon');
         }
+        // If the player's pokemon reaches zero health, this displays that the player has lost and ends the match.
         else if (battleState === BATTLE_STATES[5]) {
+            console.log('bs5 hit');
             delay(2.5);
             navigation('/myPokemon');
         }
     }
 
-    useEffect(() => { handleMatchOver(); }, [battleState]);
+    useEffect(() => { handleBattleStateUpdate(); }, [battleState]);
 
+    // Function to check if the player's pokemon's health has reached zero. Will set the battle state to the player has lost state if their health is zero.
+    function checkMyHealth() {
+        if (myHealth <= 0) {
+            setBattleState(BATTLE_STATES[5]);
+        }
+        else {
+            setBattleState(BATTLE_STATES[0]);
+        }
+    }
 
     // ---------------------------------------------
     // | Display items returned by the Battle Page.
@@ -170,17 +154,13 @@ function BattlePage() {
                             <h3>{battleState + enemyAttackText}</h3>
                         </div>
                         <BattleOptions
-                            setPageLoaded={setPageLoaded}
                             DAMAGE_MODIFIER={DAMAGE_MODIFIER}
                             BATTLE_STATES={BATTLE_STATES}
                             battleState={battleState}
                             setBattleState={setBattleState}
-                            myHealth={myHealth}
-                            setMyHealth={setMyHealth}
                             myMoveStats={myMoveStats}
                             enemyHealth={enemyHealth}
                             setEnemyHealth={setEnemyHealth}
-                            enemyMoveStats={enemyMoveStats}
                             setEnemyAttackText={setEnemyAttackText}
                         />
                     </div>

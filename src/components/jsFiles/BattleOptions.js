@@ -13,7 +13,6 @@ function BattleOptions(props) {
     const navigation = useNavigate();
 
     function handleFightClick() {
-        props.setPageLoaded(true);
         props.setBattleState(props.BATTLE_STATES[1]);
     }
 
@@ -24,16 +23,30 @@ function BattleOptions(props) {
 
     function handleMoveClick(e) {
         const { name } = e.target;
+        let tempEnemyHealth = props.enemyHealth;
         if (name === 'move1') {
-            props.setEnemyHealth(Math.max(0, props.enemyHealth - props.myMoveStats[0] * props.DAMAGE_MODIFIER));
+            tempEnemyHealth = Math.max(0, props.enemyHealth - props.myMoveStats[0] * props.DAMAGE_MODIFIER)
         }
         else if (name === 'move2') {
-            props.setEnemyHealth(Math.max(0, props.enemyHealth - props.myMoveStats[1] * props.DAMAGE_MODIFIER));
+            tempEnemyHealth = Math.max(0, props.enemyHealth - props.myMoveStats[1] * props.DAMAGE_MODIFIER);
         }
         else if (name === 'move3') {
-            props.setEnemyHealth(Math.max(0, props.enemyHealth - props.myMoveStats[2] * props.DAMAGE_MODIFIER));
+            tempEnemyHealth = Math.max(0, props.enemyHealth - props.myMoveStats[2] * props.DAMAGE_MODIFIER);
         }
-        props.setBattleState(props.BATTLE_STATES[2]);
+        checkSetEnemyHealth(tempEnemyHealth);
+    }
+
+    // Function to check if the enemy pokemon's health has reached zero. Will set the battle state to the player wins state if their health is zero.
+    function checkSetEnemyHealth(tempEnemyHealth) {
+        console.log('check enemy health hit', tempEnemyHealth);
+        props.setEnemyHealth(tempEnemyHealth);
+        if (tempEnemyHealth <= 0) {
+            console.log('enemy health equal or below 0');
+            props.setBattleState(props.BATTLE_STATES[4]);
+        }
+        else {
+            props.setBattleState(props.BATTLE_STATES[2]);
+        }
     }
 
     function handleGoBackClick() {
